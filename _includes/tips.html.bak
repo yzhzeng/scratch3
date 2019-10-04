@@ -6,7 +6,7 @@
 <div class="zs-modal-box">
      <div class="zs-modal-head">
                <button type="button" class="close">×</button>
-       <span class="author"><img src="{{ site.baseurl }}/img/apple-touch-icon-precomposed.png"/>给作者送糖🍬</span>
+       <span class="author"><img src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png"/>给作者送糖🍬</span>
         <p class="tip"><i></i><span>赠人玫瑰，手有余香</span></p>
      </div>
      <div class="zs-modal-body">
@@ -25,10 +25,10 @@
        </div>
      </div>
      <div class="zs-modal-footer">
-          <label><input type="radio" name="zs-type" value="alipay" class="zs-type" checked="checked"><span class="zs-alipay"><img src="{{ site.baseurl }}/img/alipay-btn.png"/></span></label>
-          <label><input type="radio" name="zs-type" value="wechat" class="zs-type"><span class="zs-wechat"><img src="{{ site.baseurl }}/img/wechat-btn.png"/></span></label>
+          <label><input type="radio" name="zs-type" value="alipay" class="zs-type" checked="checked"><span class="zs-alipay"><img src="{{ site.baseurl }}/public/images/alipay-btn.png"/></span></label>
+          <label><input type="radio" name="zs-type" value="wechat" class="zs-type"><span class="zs-wechat"><img src="{{ site.baseurl }}/public/images/wechat-btn.png"/></span></label>
       </div>
 </div>
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/zanshang.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/public/js/zanshang.js"></script>

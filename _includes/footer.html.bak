@@ -42,13 +42,13 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="//cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="//cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/codeboy.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- TODO: only load in tag.html -->
 <script src="{{ "/js/jquery.tagcloud.js" | prepend: site.baseurl }}" type="text/javascript" charset="utf-8"></script>
@@ -115,4 +115,5 @@ $(document).ready(function(){
 </script>
 
 <div style="display:none;">
+  <!--<script src="//s19.cnzz.com/z_stat.php?id=1000478693&web_id=1000478693" language="JavaScript"></script>-->
 </div>
