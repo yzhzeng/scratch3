@@ -1,15 +1,17 @@
 ---
 layout: page
-title: ·ÖÀà
-description: "·ÖÏí ´´Òâ ¿ìÀÖ"
+title: åˆ†ç±»
+description: "åˆ†äº« åˆ›æ„ å¿«ä¹ èªæ•"
 header-img: "img/tags-bg.jpg"
 ---
+
+
 
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- ±êÇ©ÔÆ -->
+            <!-- æ ‡ç­¾äº‘ -->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -17,12 +19,12 @@ header-img: "img/tags-bg.jpg"
 			</div>
             
             <blockquote class="tag-comments">
-                ±êÇ©ÃüÃû¹æÔò£º
-                    <li>Ò»ÆªÎÄÕÂÏà¹ØµÄÁìÓò¶¼½«´òÉÏ±êÇ©</li>
-                    <li>Ã¿¸ö±ãÇ©ÏÂº¬ÓĞËùÓĞ°üº¬´Ë±êÇ©µÄÎÄÕÂ</li>
+                æ ‡ç­¾å‘½åè§„åˆ™ï¼š
+                    <li>ä¸€ç¯‡æ–‡ç« ç›¸å…³çš„é¢†åŸŸéƒ½å°†æ‰“ä¸Šæ ‡ç­¾</li>
+                    <li>æ¯ä¸ªä¾¿ç­¾ä¸‹å«æœ‰æ‰€æœ‰åŒ…å«æ­¤æ ‡ç­¾çš„æ–‡ç« </li>
             </blockquote>
             
-            <!-- ±êÇ©ÁĞ±í -->
+            <!-- æ ‡ç­¾åˆ—è¡¨ -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</span>
