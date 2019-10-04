@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')" >
     <div class="container">
@@ -26,15 +27,18 @@ layout: default
     </div>
 </header>
 
-<div class="post-content" itemprop="articleBody">{{ content }}</div>
+<!-- Post Content -->
+<article>
+  <div class="container" style="overflow-y:hidden;">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
+				{{ content }}
 
+        <hr>
+      </div>
+      
+
+    </div>
+  </div>
 </article>
-{% include share.html %}
-
-
-{% if site.disqus-shortname %}
-{% include disqus.html %}
-{% endif %}
-<br />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
