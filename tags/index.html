@@ -1,6 +1,6 @@
----
-title: ����
-description��"����������"
+﻿---
+title: 分类
+description："分享，创意"
 layout: default
 header-img: "img/tags-bg.jpg"
 ---
@@ -23,7 +23,7 @@ header-img: "img/tags-bg.jpg"
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签�?-->
+            <!-- 鏍囩浜?-->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
@@ -31,11 +31,11 @@ header-img: "img/tags-bg.jpg"
 			</div>
             
             <blockquote class="tag-comments">
-                标签命名规则�?                    <li>一篇文章相关的领域都将打上标签</li>
-                    <li>每个便签下含有所有包含此标签的文�?/li>
+                鏍囩鍛藉悕瑙勫垯锛?                    <li>涓€绡囨枃绔犵浉鍏崇殑棰嗗煙閮藉皢鎵撲笂鏍囩</li>
+                    <li>姣忎釜渚跨涓嬪惈鏈夋墍鏈夊寘鍚鏍囩鐨勬枃绔?/li>
             </blockquote>
             
-            <!-- 标签列表 -->
+            <!-- 鏍囩鍒楄〃 -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</span>
