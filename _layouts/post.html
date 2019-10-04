@@ -36,20 +36,19 @@ layout: default
 				{{ content }}
 
         <hr>
+	{% include share.html %}
+
+
+	{% if site.disqus-shortname %}
+	{% include disqus.html %}
+	{% endif %}
+	<br />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+ 
       </div>
       
 
     </div>
   </div>
-	
-{% include share.html %}
-
-
-{% if site.disqus-shortname %}
-{% include disqus.html %}
-{% endif %}
-<br />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
 </article>
 
