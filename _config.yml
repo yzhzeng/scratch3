@@ -57,7 +57,7 @@ baseurl: "/scratch3" # does not include hostname
 
 # Outputting
 permalink: pretty
-paginate: 10
+paginate: 3
 paginate_path: /page/:num
 timezone: Asia/Shanghai
 
@@ -93,4 +93,5 @@ kramdown:
 sass:
   style: compressed
 
-change-date-bg: yes
+#post-card option
+#change-date-bg: no
