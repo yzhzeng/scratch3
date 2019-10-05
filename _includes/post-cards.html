@@ -2,7 +2,7 @@
 {% if site.change-date-bg %}
 <div class="post-box">
 {% if post.categories %}
-<div class="ribbon"><span>{{post.categories | first}}</span></div>
+<div class="ribbon"><span>{{post.tags | first}}</span></div>
 {% endif %}
 <div class="post-meta1" style="background: {{site.color-1}};background: -webkit-linear-gradient(to top, {{site.color-1}} , {{site.color-2}});background: linear-gradient(to top, {{site.color-1}} , {{site.color-2}});"><h1 class="date">{{ post.date | date: "%-d" }}</h1>
 <span>{{ post.date | date: "%b" }}</span></div>
@@ -17,7 +17,7 @@
 
 <div class="post-box">
 {% if post.categories %}
-<div class="ribbon"><span>{{post.categories | first}}</span></div>
+<div class="ribbon"><span>{{post.tags | first}}</span></div>
 {% endif %}
 <div class="post-meta1"><h1 class="date">{{ post.date | date: "%-d" }}</h1>
 <span>{{ post.date | date: "%b" }}</span></div>
