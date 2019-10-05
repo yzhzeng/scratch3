@@ -27,7 +27,7 @@
     padding: 10px 25px;
     color: $background-color;
     text-align: center;
-    width: 8%;
+    width: 12%;
     font-size: 20px;
     @include media-query($on-laptop) {
           padding: 12px 15px;
