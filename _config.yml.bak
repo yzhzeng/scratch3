@@ -57,7 +57,7 @@ baseurl: "/scratch3" # does not include hostname
 
 # Outputting
 permalink: pretty
-paginate: 10
+paginate: 16
 paginate_path: /page/:num
 timezone: Asia/Shanghai
 
