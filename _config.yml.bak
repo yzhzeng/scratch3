@@ -92,3 +92,5 @@ kramdown:
 # CSS
 sass:
   style: compressed
+
+change-date-bg: no

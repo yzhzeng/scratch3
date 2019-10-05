@@ -93,4 +93,4 @@ kramdown:
 sass:
   style: compressed
 
-change-date-bg: no
+change-date-bg: yes
