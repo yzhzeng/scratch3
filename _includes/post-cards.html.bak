@@ -8,7 +8,7 @@
 <span>{{ post.date | date: "%b" }}</span></div>
 <div class="post-title-box">
 <p class="post-link">{{ post.title | truncate: 40 }}</p>
-<p class="post-excerpt">{{ post.description | strip_html | truncate: 120 }}</p>
+<p class="post-excerpt">{{ post.content | strip_html | truncate:120 }}</p>
 </div>
 </div>
 
@@ -23,7 +23,7 @@
 <span>{{ post.date | date: "%b" }}</span></div>
 <div class="post-title-box">
 <p class="post-link">{{ post.title | truncate: 40 }}</p>
-<p class="post-excerpt">{{ post.description | strip_html | truncate: 120 }}</p>
+<p class="post-excerpt">{{ post.content | strip_html | truncate:120 }}</p>
 </div>
 </div>
 {% endif %}
