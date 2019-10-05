@@ -19,7 +19,7 @@
 }
 
 
-.post-meta1 {
+.post-meta {
     display: inline-block;
     background: #26A65B; /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #26A65B , #2ECC71); /* Chrome 10-25, Safari 5.1-6 */
