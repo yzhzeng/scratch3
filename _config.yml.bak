@@ -88,3 +88,7 @@ kramdown:
     tab_width:         4
     bold_every:        10
     css:               style
+
+# CSS
+sass:
+  style: compressed
