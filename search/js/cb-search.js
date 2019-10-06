@@ -62,7 +62,6 @@ $(document).ready(function () {
     });
 
     $.getJSON("/scratch3/search/cb-search.json").done(function (data) {
-    	alert("OK!");
         if (data.code == 0) {
             for (var index in data.data) {
                 var item = data.data[index];
