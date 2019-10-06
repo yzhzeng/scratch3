@@ -3,6 +3,7 @@ $(document).ready(function () {
     var show = false;
     var names = new Array(); //文章名字等
     var urls = new Array(); //文章地址
+    	alert("OK");
     $(document).keyup(function (e) {
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
@@ -62,7 +63,6 @@ $(document).ready(function () {
     });
 
     $.getJSON("{{site.baseurl}}/search/cb-search.json").done(function (data) {
-    	alert("OK");
         if (data.code == 0) {
             for (var index in data.data) {
                 var item = data.data[index];
