@@ -28,7 +28,6 @@ $(document).ready(function () {
     });
 
     $("#cb-search-content").keyup(function (e) {
-    	alert("OK");
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
             var gap = time2 - time1;
@@ -63,6 +62,7 @@ $(document).ready(function () {
     });
 
     $.getJSON("{{site.baseurl}}/search/cb-search.json").done(function (data) {
+    	alert("OK");
         if (data.code == 0) {
             for (var index in data.data) {
                 var item = data.data[index];
