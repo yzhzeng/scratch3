@@ -3,8 +3,8 @@ $(document).ready(function () {
     var show = false;
     var names = new Array(); //文章名字等
     var urls = new Array(); //文章地址
-    	alert("OK");
     $(document).keyup(function (e) {
+    	alert("OK");
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
             var gap = time2 - time1;

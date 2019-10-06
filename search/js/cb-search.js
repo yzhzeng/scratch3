@@ -4,7 +4,6 @@ $(document).ready(function () {
     var names = new Array(); //文章名字等
     var urls = new Array(); //文章地址
     $(document).keyup(function (e) {
-    	alert("OK");
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
             var gap = time2 - time1;
@@ -29,6 +28,7 @@ $(document).ready(function () {
     });
 
     $("#cb-search-content").keyup(function (e) {
+    	alert("OK");
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
             var gap = time2 - time1;
