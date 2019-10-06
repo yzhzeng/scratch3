@@ -82,6 +82,8 @@
 </script>-->
 <link href="https://cdn.bootcss.com/highlight.js/9.4.0/styles/github.min.css" rel="stylesheet">
 
+{% include cb-footer-add.html %}
+
 <script>
 $(document).ready(function(){
   //代码高亮自定义
