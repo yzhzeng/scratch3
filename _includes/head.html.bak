@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keyword"  content="茶聊, 计算机, IT, Machine, Learning, 互联网, 编程, Scratch, 儿童学编程,  茶聊网站, 电脑玩家,  手机玩家, IT运维, 树莓派, 单片机, 闲聊 ">
+    <meta name="keyword"  content="codeboy, @codeboy, 小胖轩, 玄恒, Blog, Github, 博客, 互联网, 前端, 设计, 产品,  玄恒的个人网站, android,  mobile, server, web, datamine ">
     <meta name="description" content="{{ site.description }}">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
 
 <link rel="alternate" type="application/rss+xml"
-  href="feed.xml" title="茶聊">
+  href="feed.xml" title="小胖轩">
     <!-- Custom Fonts -->
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
