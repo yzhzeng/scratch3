@@ -3,7 +3,8 @@
 title: "茶  聊" 
 header-img: "img/home-bg.jpg"
 email: "yzhzeng@gmail.com"
-url: "http://yzhzeng.github.io/"
+url: "http://yzhzeng.github.io/scratch3/"
+full-url: "http://yzhzeng.github.io/scratch3/" # the base hostname & protocol for your site
 description: "方方面面、点点滴滴"
 
 
@@ -47,7 +48,7 @@ incremental: false
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/scratch3" # does not include hostname
+baseurl: "/" # does not include hostname
 
 # Outputting
 permalink: pretty
