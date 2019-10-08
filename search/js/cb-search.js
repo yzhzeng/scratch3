@@ -4,6 +4,7 @@ $(document).ready(function () {
     var names = new Array(); //文章名字等
     var urls = new Array(); //文章地址
     $(document).keyup(function (e) {
+    alert("ok1");
         var time2 = new Date().getTime();
         if (e.keyCode == 17) {
             var gap = time2 - time1;
@@ -62,6 +63,7 @@ $(document).ready(function () {
     });
 
     $.getJSON("http://yzhzeng.github.io/scratch3/search/cb-search.json").done(function (data) {
+    alert("ok2");
         if (data.code == 0) {
             for (var index in data.data) {
                 var item = data.data[index];
