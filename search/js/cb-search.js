@@ -62,7 +62,6 @@ $(document).ready(function () {
     });
 
     $.getJSON("/search/cb-search.json").done(function (data) {
-    alert("ok2");
         if (data.code == 0) {
             for (var index in data.data) {
                 var item = data.data[index];
