@@ -48,7 +48,7 @@ incremental: false
 detach:  false
 port:    4000
 host:    127.0.0.1
-baseurl: "/" # does not include hostname
+baseurl: "/scratch3/" # does not include hostname
 
 # Outputting
 permalink: pretty
