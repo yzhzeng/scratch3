@@ -1,3 +1,18 @@
+#lsi: false
+safe: true
+#source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
+
+
+
 ######################站点全局信息，需要部分修改#########################
 # Site settings
 title: "茶  聊" 
@@ -19,7 +34,7 @@ posts_dir: ./_posts
 #collections:  null
 
 # Handling Reading
-safe:         false
+#safe:         false
 include:      [".htaccess"]
 exclude:      ["less","node_modules","Gruntfile.js","package.json","README.md","tmp","unless"]
 keep_files:   [".git", ".svn"]
@@ -73,7 +88,7 @@ kramdown:
   entity_output:  as_char
   toc_levels:     1..6
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  syntax_highlighter: true
+  #syntax_highlighter: true
   input: GFM
 
   syntax_highlighter_opts:
