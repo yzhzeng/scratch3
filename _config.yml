@@ -18,8 +18,8 @@ kramdown:
 title: "茶  聊" 
 header-img: "img/home-bg.jpg"
 email: "yzhzeng@gmail.com"
-url: "http://yzhzeng.github.io/scratch3/"
-full-url: "http://yzhzeng.github.io/scratch3/" # the base hostname & protocol for your site
+url: "https://yzhzeng.github.io/scratch3/"
+full-url: "https://yzhzeng.github.io/scratch3/" # the base hostname & protocol for your site
 description: "方方面面、点点滴滴"
 
 
